@@ -1,0 +1,7 @@
+---
+mysql_db: bet
+mysql_user: bet
+mysql_password: 'PassW0rd1!'
+mysql_root_password: 'Hunter1981!'
+
+...

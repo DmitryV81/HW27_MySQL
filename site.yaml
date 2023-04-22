@@ -1,0 +1,14 @@
+---
+- name: Install MySQL Master
+  hosts: master
+  become: true
+  roles:
+    - master
+
+- name: Install MySQL Slave
+  hosts: slave
+  become: true
+  roles:
+    - slave
+
+...
